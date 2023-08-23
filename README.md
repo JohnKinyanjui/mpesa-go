@@ -1,4 +1,4 @@
-# mpesa-go
+# Mplesa SDK for golang
 
 A golang sdk for safaricom Mpesa
 
@@ -93,6 +93,7 @@ func MpesaExpressExample() {
 		//when a user pays or payment fails something happens you will receive the response here
 		CallBackURL: "https://send/the/callback/here",
 		//something you use to identify which user has paid
+		PartyB: "TILL_NUMBER".
 		//for example for something like KPLC this would be METER NUMBER
 		AccountReference: "",
 		TransactionDesc:  "",
